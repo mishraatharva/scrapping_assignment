@@ -1,0 +1,16 @@
+{% block head %}
+
+<title>Index Page</title>
+{% endblock %}
+
+{% block body %}
+<div class="input">
+    <h1 style="text-align: center">Get Review</h1>
+    
+    <div class="form">
+        <form action="/savedata" method="POST">
+            <input type="submit" value="Get Review">
+        </form>
+    </div>
+</div>
+{% endblock %}

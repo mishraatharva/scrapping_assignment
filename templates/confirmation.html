@@ -1,0 +1,18 @@
+{% block head %}
+
+<title>Confirmation Page</title>
+{% endblock %}
+
+{% block body %}
+<div class="input">
+    <h1 style="text-align: center">Confirmation Page</h1>
+    <br>
+    <p style="text-align: center">{{result}}</p>
+    <br>
+    <div style="text-align: center" class="form">
+        <form action="/showreviews" method="GET">
+            <input type="submit" value="Show Review">
+        </form>
+    </div>
+</div>
+{% endblock %}
